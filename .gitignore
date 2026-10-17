@@ -1,0 +1,9 @@
+.tools/
+__pycache__/
+.mypy_cache/
+.ruff_cache/
+qa/
+*.docx
+*.zip
+*_source.txt
+*.pdf

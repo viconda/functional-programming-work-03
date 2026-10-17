@@ -1,0 +1,99 @@
+{
+  "lecture_ex01": [
+    "evidence/screenshots/lecture_ex01_1.png"
+  ],
+  "lecture_ex02": [
+    "evidence/screenshots/lecture_ex02_1.png"
+  ],
+  "lecture_ex03": [
+    "evidence/screenshots/lecture_ex03_1.png"
+  ],
+  "lecture_ex04": [
+    "evidence/screenshots/lecture_ex04_1.png"
+  ],
+  "lecture_ex05": [
+    "evidence/screenshots/lecture_ex05_1.png"
+  ],
+  "lecture_ex06": [
+    "evidence/screenshots/lecture_ex06_1.png"
+  ],
+  "lecture_ex07": [
+    "evidence/screenshots/lecture_ex07_1.png"
+  ],
+  "lecture_ex08": [
+    "evidence/screenshots/lecture_ex08_1.png"
+  ],
+  "lecture_ex09": [
+    "evidence/screenshots/lecture_ex09_1.png"
+  ],
+  "lecture_ex10": [
+    "evidence/screenshots/lecture_ex10_1.png"
+  ],
+  "lecture_ex11": [
+    "evidence/screenshots/lecture_ex11_1.png"
+  ],
+  "lecture_ex12": [
+    "evidence/screenshots/lecture_ex12_1.png"
+  ],
+  "lecture_ex13": [
+    "evidence/screenshots/lecture_ex13_1.png"
+  ],
+  "lecture_ex14": [
+    "evidence/screenshots/lecture_ex14_1.png"
+  ],
+  "lecture_ex15": [
+    "evidence/screenshots/lecture_ex15_1.png"
+  ],
+  "lecture_extra_strings": [
+    "evidence/screenshots/lecture_extra_strings_1.png"
+  ],
+  "lecture_extra_copy": [
+    "evidence/screenshots/lecture_extra_copy_1.png"
+  ],
+  "lecture_extra_pitfalls": [
+    "evidence/screenshots/lecture_extra_pitfalls_1.png"
+  ],
+  "lecture_srs1": [
+    "evidence/screenshots/lecture_srs1_1.png"
+  ],
+  "lecture_srs2": [
+    "evidence/screenshots/lecture_srs2_1.png"
+  ],
+  "lecture_srs3": [
+    "evidence/screenshots/lecture_srs3_1.png"
+  ],
+  "lecture_srs4": [
+    "evidence/screenshots/lecture_srs4_1.png"
+  ],
+  "lab_interval": [
+    "evidence/screenshots/lab_interval_1.png"
+  ],
+  "lab_group": [
+    "evidence/screenshots/lab_group_1.png"
+  ],
+  "lab_task01": [
+    "evidence/screenshots/lab_task01_1.png",
+    "evidence/screenshots/lab_task01_2.png"
+  ],
+  "lab_task02": [
+    "evidence/screenshots/lab_task02_1.png"
+  ],
+  "lab_task03": [
+    "evidence/screenshots/lab_task03_1.png"
+  ],
+  "lab_task04": [
+    "evidence/screenshots/lab_task04_1.png"
+  ],
+  "lab_task05": [
+    "evidence/screenshots/lab_task05_1.png"
+  ],
+  "lab_task06": [
+    "evidence/screenshots/lab_task06_1.png"
+  ],
+  "lab_extra": [
+    "evidence/screenshots/lab_extra_1.png"
+  ],
+  "checks": [
+    "evidence/screenshots/checks_1.png"
+  ]
+}

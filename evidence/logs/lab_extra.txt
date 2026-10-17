@@ -1,0 +1,11 @@
+ДОПОЛНИТЕЛЬНОЕ ЗАДАНИЕ. @immutable
+Исходный объект: Wallet('Алия', 1000, currency='KZT')
+evolve(amount=1500): Wallet('Алия', 1500, currency='KZT')
+Оригинал после evolve: Wallet('Алия', 1000, currency='KZT')
+Присваивание, добавление, удаление, повторный init: запрещены.
+Неизвестное поле: TypeError; отрицательный баланс: ValueError.
+dataclass + replace: FrozenWallet(owner='Алия', amount=1000) -> FrozenWallet(owner='Алия', amount=1500)
+Оба решения проверяют новые объекты; исходные объекты сохранены.
+Ограничения: вложенные объекты не замораживаются автоматически;
+object.__setattr__ и прямой __dict__ обходят учебную защиту.
+Проверки: OK

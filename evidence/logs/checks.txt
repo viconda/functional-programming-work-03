@@ -1,0 +1,12 @@
+python -m mypy lab03
+Success: no issues found in 8 source files
+python -m mypy lecture03
+Success: no issues found in 25 source files
+python -m ruff check lab03
+All checks passed!
+python -m ruff check lecture03
+All checks passed!
+Фактические практические запуски: 31/31 успешны
+Лекция: 15 примеров + 3 демонстрации + 4 СРС = 22 запуска
+Лабораторная: 2 примера + 6 заданий + дополнительное = 9 запусков
+Типы, оформление кода и журналы проверены

@@ -1,0 +1,18 @@
+{
+  "id": "lecture_ex08",
+  "title": "Пример 8. Операции frozenset и использование множества как ключа.",
+  "command": [
+    "C:\\Users\\shvac\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "-m",
+    "lecture03",
+    "ex08"
+  ],
+  "display_command": "python -m lecture03 ex08",
+  "python": "3.12.14",
+  "timestamp": "2026-10-17T17:22:56+05:00",
+  "exit_code": 0,
+  "stdout": "Лекция 3 | ex08 | Пример 8. Операции frozenset и использование множества как ключа.\n['Мадина']\n['Айдос', 'Мадина', 'Олжас', 'Тимур']\nmobile\nРазность: ['Айдос', 'Олжас']\nСимметрическая разность: ['Айдос', 'Олжас', 'Тимур']\nПРОВЕРКИ: УСПЕШНО\n",
+  "stderr": ""
+}

@@ -1,0 +1,7 @@
+Лекция 3 | ex06 | Пример 6. Интроспекция функции без отложенного вычисления аннотаций.
+(2.0,) {'clip': False}
+{'x': <class 'float'>, 'factor': <class 'float'>, 'clip': <class 'bool'>, 'return': <class 'float'>}
+(x: float, factor: float = 2.0, *, clip: bool = False) -> float
+Имя: scale Документация: Масштабировать значение.
+Аргументы: ('x', 'factor', 'clip') Замыкание: None
+ПРОВЕРКИ: УСПЕШНО

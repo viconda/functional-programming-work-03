@@ -1,0 +1,18 @@
+{
+  "id": "lab_interval",
+  "title": "Учебный пример 1 Проверка инвариантов Interval",
+  "command": [
+    "C:\\Users\\shvac\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "-m",
+    "lab03.theory",
+    "interval"
+  ],
+  "display_command": "python -m lab03.theory interval",
+  "python": "3.12.14",
+  "timestamp": "2026-10-17T17:24:26+05:00",
+  "exit_code": 0,
+  "stdout": "Interval(2, 5).length = 3\nInterval(5, 2): ValueError: начало 5 больше конца 2\nassert: обычный отрезок, точка и неверные границы проверены\n",
+  "stderr": ""
+}

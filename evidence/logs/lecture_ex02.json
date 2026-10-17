@@ -1,0 +1,18 @@
+{
+  "id": "lecture_ex02",
+  "title": "Пример 2. Возвращение нескольких статистик и распаковка кортежа.",
+  "command": [
+    "C:\\Users\\shvac\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "-m",
+    "lecture03",
+    "ex02"
+  ],
+  "display_command": "python -m lecture03 ex02",
+  "python": "3.12.14",
+  "timestamp": "2026-10-17T17:22:52+05:00",
+  "exit_code": 0,
+  "stdout": "Лекция 3 | ex02 | Пример 2. Возвращение нескольких статистик и распаковка кортежа.\n4 42 18.0\nПустой ввод: последовательность не должна быть пустой\nПРОВЕРКИ: УСПЕШНО\n",
+  "stderr": ""
+}

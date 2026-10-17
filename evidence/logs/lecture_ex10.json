@@ -1,0 +1,18 @@
+{
+  "id": "lecture_ex10",
+  "title": "Пример 10. Типизированная запись с методами.",
+  "command": [
+    "C:\\Users\\shvac\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "-m",
+    "lecture03",
+    "ex10"
+  ],
+  "display_command": "python -m lecture03 ex10",
+  "python": "3.12.14",
+  "timestamp": "2026-10-17T17:22:58+05:00",
+  "exit_code": 0,
+  "stdout": "Лекция 3 | ex10 | Пример 10. Типизированная запись с методами.\n5.0 Vector(x=6, y=8) Vector(x=5, y=0.0)\nПРОВЕРКИ: УСПЕШНО\n",
+  "stderr": ""
+}

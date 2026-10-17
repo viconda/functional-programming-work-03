@@ -1,0 +1,18 @@
+{
+  "id": "lecture_ex12",
+  "title": "Пример 12. Представление словаря только для чтения.",
+  "command": [
+    "C:\\Users\\shvac\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "-m",
+    "lecture03",
+    "ex12"
+  ],
+  "display_command": "python -m lecture03 ex12",
+  "python": "3.12.14",
+  "timestamp": "2026-10-17T17:22:59+05:00",
+  "exit_code": 0,
+  "stdout": "Лекция 3 | ex12 | Пример 12. Представление словаря только для чтения.\nru\nНельзя изменить: 'mappingproxy' object does not support item assignment\nПосле изменения исходного словаря: kk\nПРОВЕРКИ: УСПЕШНО\n",
+  "stderr": ""
+}

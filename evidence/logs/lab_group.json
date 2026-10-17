@@ -1,0 +1,18 @@
+{
+  "id": "lab_group",
+  "title": "Учебный пример 2 Группа и история версий",
+  "command": [
+    "C:\\Users\\shvac\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "-m",
+    "lab03.theory",
+    "group"
+  ],
+  "display_command": "python -m lab03.theory group",
+  "python": "3.12.14",
+  "timestamp": "2026-10-17T17:24:27+05:00",
+  "exit_code": 0,
+  "stdout": "Рейтинг: [('Мадина', 97.0), ('Аскар', 81.5)]\nВерсий: 6 | студентов в версии 1: 1\nМадина общая в версиях 2 и 3: True\nМадина общая в версиях 3 и 4: False\nПеревод Аскара: CS-24-1 -> CS-24-2\nРазмеры групп после перевода: 1 1\nassert: рейтинг, история, структурное разделение и перевод проверены\n",
+  "stderr": ""
+}

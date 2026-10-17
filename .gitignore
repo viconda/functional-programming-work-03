@@ -3,6 +3,9 @@ __pycache__/
 .mypy_cache/
 .ruff_cache/
 qa/
+qa_final/
+delivery/
+*.bundle
 *.docx
 *.zip
 *_source.txt

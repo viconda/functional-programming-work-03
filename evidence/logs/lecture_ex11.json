@@ -1,0 +1,18 @@
+{
+  "id": "lecture_ex11",
+  "title": "Пример 11. Замороженный счёт и чистое пополнение.",
+  "command": [
+    "C:\\Users\\shvac\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "-m",
+    "lecture03",
+    "ex11"
+  ],
+  "display_command": "python -m lecture03 ex11",
+  "python": "3.12.14",
+  "timestamp": "2026-10-17T17:22:58+05:00",
+  "exit_code": 0,
+  "stdout": "Лекция 3 | ex11 | Пример 11. Замороженный счёт и чистое пополнение.\nAccount(owner='Нурлан', balance=0.0, history=())\nAccount(owner='Нурлан', balance=6500.0, history=(('deposit', 5000), ('deposit', 1500)))\nОшибка: FrozenInstanceError\nПРОВЕРКИ: УСПЕШНО\n",
+  "stderr": ""
+}

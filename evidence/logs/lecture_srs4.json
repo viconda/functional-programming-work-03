@@ -1,0 +1,18 @@
+{
+  "id": "lecture_srs4",
+  "title": "СРС 4. Рекурсивное преобразование вложенных коллекций.",
+  "command": [
+    "C:\\Users\\shvac\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "-m",
+    "lecture03",
+    "srs4"
+  ],
+  "display_command": "python -m lecture03 srs4",
+  "python": "3.12.14",
+  "timestamp": "2026-10-17T17:23:09+05:00",
+  "exit_code": 0,
+  "stdout": "Лекция 3 | srs4 | СРС 4. Рекурсивное преобразование вложенных коллекций.\nВнешний тип: mappingproxy\nstudents: tuple\nЗапись студента: mappingproxy\nscores: (80, 90)\ntags: frozenset ['fp', 'python']\nИзменение исходных коллекций не изменило замороженный результат.\nЗапись во вложенный словарь: TypeError\nПовторная ссылка на подсписок сохранена: True\nГраничная проверка: ValueError\nГраничная проверка: TypeError\nПустые контейнеры, вложенный tuple и повторная заморозка проверены.\nПРОВЕРКИ: УСПЕШНО\n",
+  "stderr": ""
+}

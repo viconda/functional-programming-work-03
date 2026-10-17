@@ -1,0 +1,18 @@
+{
+  "id": "lecture_extra_pitfalls",
+  "title": "Дополнение. Вложенные изменяемые объекты и цена конкатенации.",
+  "command": [
+    "C:\\Users\\shvac\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "-m",
+    "lecture03",
+    "extra_pitfalls"
+  ],
+  "display_command": "python -m lecture03 extra_pitfalls",
+  "python": "3.12.14",
+  "timestamp": "2026-10-17T17:23:04+05:00",
+  "exit_code": 0,
+  "stdout": "Лекция 3 | extra_pitfalls | Дополнение. Вложенные изменяемые объекты и цена конкатенации.\nСписок внутри frozen=True изменился: [1, 2, 3]\nХеширование записи со списком: TypeError\nСписок внутри tuple тоже изменился: ([1, 3], 2)\nОба кортежа равны; длина: 1000\nСумма длин новых кортежей при +: 500500\nРазовое построение записывает 1000 ссылок, повторное + имеет O(n²).\nПРОВЕРКИ: УСПЕШНО\n",
+  "stderr": ""
+}

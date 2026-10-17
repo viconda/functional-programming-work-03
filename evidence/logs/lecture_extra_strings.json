@@ -1,0 +1,18 @@
+{
+  "id": "lecture_extra_strings",
+  "title": "Дополнение к разделу 5.3. Неизменяемость str и bytes.",
+  "command": [
+    "C:\\Users\\shvac\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "-m",
+    "lecture03",
+    "extra_strings"
+  ],
+  "display_command": "python -m lecture03 extra_strings",
+  "python": "3.12.14",
+  "timestamp": "2026-10-17T17:23:02+05:00",
+  "exit_code": 0,
+  "stdout": "Лекция 3 | extra_strings | Дополнение к разделу 5.3. Неизменяемость str и bytes.\nИсходная строка: '  Python  '\nПосле strip/upper/replace: 'Python 3'\njoin: функции и неизменяемость\nsplit: ['функции', 'и', 'неизменяемость']\nbytes: b'abc' новое значение: b'Abc'\nstr не допускает присваивание элементу\nbytes не допускает присваивание элементу\nМетод без изменения может вернуть тот же объект; is не является контрактом.\nПРОВЕРКИ: УСПЕШНО\n",
+  "stderr": ""
+}

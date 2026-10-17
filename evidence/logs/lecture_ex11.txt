@@ -1,0 +1,5 @@
+Лекция 3 | ex11 | Пример 11. Замороженный счёт и чистое пополнение.
+Account(owner='Нурлан', balance=0.0, history=())
+Account(owner='Нурлан', balance=6500.0, history=(('deposit', 5000), ('deposit', 1500)))
+Ошибка: FrozenInstanceError
+ПРОВЕРКИ: УСПЕШНО

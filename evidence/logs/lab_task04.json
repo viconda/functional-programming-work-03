@@ -1,0 +1,17 @@
+{
+  "id": "lab_task04",
+  "title": "Лабораторная работа Задание 4",
+  "command": [
+    "C:\\Users\\shvac\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "-m",
+    "lab03.task04"
+  ],
+  "display_command": "python -m lab03.task04",
+  "python": "3.12.14",
+  "timestamp": "2026-10-17T17:24:30+05:00",
+  "exit_code": 0,
+  "stdout": "ЗАДАНИЕ 4. Неизменяемые коллекции\nКандидат 1: ['Docker', 'Git', 'Python', 'SQL']\nКандидат 2: ['Git', 'Java', 'Python']\nКандидат 3: ['Git', 'Linux', 'Python', 'SQL']\nОбщие навыки: ['Git', 'Python']\nТолько у первого: ['Docker']\nВсе навыки: ['Docker', 'Git', 'Java', 'Linux', 'Python', 'SQL']\nДолжность по ключу frozenset: Backend-разработчик\nПрямое изменение MappingProxyType: TypeError\nИсходная конфигурация: {'theme': 'light', 'port': 8080}\nНовая конфигурация: {'theme': 'light', 'port': 9000}\nВнешнее изменение backing видно в proxy: 7070\nНовая конфигурация имеет свой словарь: 8080\nРабочие дни: Понедельник, Вторник, Среда, Четверг, Пятница\nfreeze вложенной структуры: (1, (2, 3), frozenset({4, 5}), ('x', (6,)))\nБез вложенных MappingProxyType hash() выполнен успешно.\nСловарь скопирован; изменение исходного списка не меняет заморозку.\nMappingProxyType и кортеж с ним: ожидаемый TypeError при hash().\nПРОВЕРКИ: множества, конфигурация, дни, рекурсия и исходные данные пройдены.\n",
+  "stderr": ""
+}

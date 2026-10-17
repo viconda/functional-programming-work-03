@@ -1,0 +1,18 @@
+{
+  "id": "lecture_ex05",
+  "title": "Пример 5. Намеренно ошибочное изменяемое значение по умолчанию.",
+  "command": [
+    "C:\\Users\\shvac\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "-m",
+    "lecture03",
+    "ex05"
+  ],
+  "display_command": "python -m lecture03 ex05",
+  "python": "3.12.14",
+  "timestamp": "2026-10-17T17:22:54+05:00",
+  "exit_code": 0,
+  "stdout": "Лекция 3 | ex05 | Пример 5. Намеренно ошибочное изменяемое значение по умолчанию.\n['Асель']\n['Асель', 'Данияр']\n['Асель']\n['Данияр']\nПереданный список сохранён: ['Алия']\nПРОВЕРКИ: УСПЕШНО\n",
+  "stderr": ""
+}

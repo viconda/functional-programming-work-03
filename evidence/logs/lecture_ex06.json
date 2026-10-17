@@ -1,0 +1,18 @@
+{
+  "id": "lecture_ex06",
+  "title": "Пример 6. Интроспекция функции без отложенного вычисления аннотаций.",
+  "command": [
+    "C:\\Users\\shvac\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "-m",
+    "lecture03",
+    "ex06"
+  ],
+  "display_command": "python -m lecture03 ex06",
+  "python": "3.12.14",
+  "timestamp": "2026-10-17T17:22:55+05:00",
+  "exit_code": 0,
+  "stdout": "Лекция 3 | ex06 | Пример 6. Интроспекция функции без отложенного вычисления аннотаций.\n(2.0,) {'clip': False}\n{'x': <class 'float'>, 'factor': <class 'float'>, 'clip': <class 'bool'>, 'return': <class 'float'>}\n(x: float, factor: float = 2.0, *, clip: bool = False) -> float\nИмя: scale Документация: Масштабировать значение.\nАргументы: ('x', 'factor', 'clip') Замыкание: None\nПРОВЕРКИ: УСПЕШНО\n",
+  "stderr": ""
+}

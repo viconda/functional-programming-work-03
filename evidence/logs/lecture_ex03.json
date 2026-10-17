@@ -1,0 +1,18 @@
+{
+  "id": "lecture_ex03",
+  "title": "Пример 3. Позиционные, вариативные и только именованные параметры.",
+  "command": [
+    "C:\\Users\\shvac\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "-m",
+    "lecture03",
+    "ex03"
+  ],
+  "display_command": "python -m lecture03 ex03",
+  "python": "3.12.14",
+  "timestamp": "2026-10-17T17:22:53+05:00",
+  "exit_code": 0,
+  "stdout": "Лекция 3 | ex03 | Пример 3. Позиционные, вариативные и только именованные параметры.\nИТОГИ\n1 | Алиев | 92\n2 | Ким | 88\nauthor: М.Б.\nyear: 2026\ntitle= без позиционного заголовка: TypeError, как ожидалось\nПРОВЕРКИ: УСПЕШНО\n",
+  "stderr": ""
+}

@@ -1,0 +1,16 @@
+{
+  "id": "checks",
+  "title": "Итоговая проверка типов и оформления кода",
+  "command": [
+    "C:\\Users\\shvac\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "quality_checks.py"
+  ],
+  "display_command": "python quality_checks.py",
+  "python": "3.12.14",
+  "timestamp": "2026-10-17T17:29:38+05:00",
+  "exit_code": 0,
+  "stdout": "python -m mypy lab03\nSuccess: no issues found in 8 source files\npython -m mypy lecture03\nSuccess: no issues found in 25 source files\npython -m ruff check lab03\nAll checks passed!\npython -m ruff check lecture03\nAll checks passed!\nФактические практические запуски: 31/31 успешны\nЛекция: 15 примеров + 3 демонстрации + 4 СРС = 22 запуска\nЛабораторная: 2 примера + 6 заданий + дополнительное = 9 запусков\nТипы, оформление кода и журналы проверены\n",
+  "stderr": ""
+}

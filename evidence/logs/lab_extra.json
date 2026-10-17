@@ -1,0 +1,17 @@
+{
+  "id": "lab_extra",
+  "title": "Дополнительное задание Декоратор immutable",
+  "command": [
+    "C:\\Users\\shvac\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "-m",
+    "lab03.extra"
+  ],
+  "display_command": "python -m lab03.extra",
+  "python": "3.12.14",
+  "timestamp": "2026-10-17T17:24:35+05:00",
+  "exit_code": 0,
+  "stdout": "ДОПОЛНИТЕЛЬНОЕ ЗАДАНИЕ. @immutable\nИсходный объект: Wallet('Алия', 1000, currency='KZT')\nevolve(amount=1500): Wallet('Алия', 1500, currency='KZT')\nОригинал после evolve: Wallet('Алия', 1000, currency='KZT')\nПрисваивание, добавление, удаление, повторный init: запрещены.\nНеизвестное поле: TypeError; отрицательный баланс: ValueError.\ndataclass + replace: FrozenWallet(owner='Алия', amount=1000) -> FrozenWallet(owner='Алия', amount=1500)\nОба решения проверяют новые объекты; исходные объекты сохранены.\nОграничения: вложенные объекты не замораживаются автоматически;\nobject.__setattr__ и прямой __dict__ обходят учебную защиту.\nПроверки: OK\n",
+  "stderr": ""
+}

@@ -1,0 +1,18 @@
+{
+  "id": "lecture_ex09",
+  "title": "Пример 9. Именованный кортеж collections.namedtuple.",
+  "command": [
+    "C:\\Users\\shvac\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "-m",
+    "lecture03",
+    "ex09"
+  ],
+  "display_command": "python -m lecture03 ex09",
+  "python": "3.12.14",
+  "timestamp": "2026-10-17T17:22:57+05:00",
+  "exit_code": 0,
+  "stdout": "Лекция 3 | ex09 | Пример 9. Именованный кортеж collections.namedtuple.\n3 4 3\nPoint(x=3, y=4) Point(x=10, y=4)\n{'x': 3, 'y': 4}\nПрисваивание p.x: AttributeError\nПРОВЕРКИ: УСПЕШНО\n",
+  "stderr": ""
+}

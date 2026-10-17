@@ -1,0 +1,17 @@
+{
+  "id": "lab_task01",
+  "title": "Лабораторная работа Задание 1",
+  "command": [
+    "C:\\Users\\shvac\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "-m",
+    "lab03.task01"
+  ],
+  "display_command": "python -m lab03.task01",
+  "python": "3.12.14",
+  "timestamp": "2026-10-17T17:24:27+05:00",
+  "exit_code": 0,
+  "stdout": "ЗАДАНИЕ 1. Сигнатуры функций\nstats(*numbers: float, precision: int = 2) -> dict[str, float]\n  __defaults__ = None\n  __kwdefaults__ = {'precision': 2}\nmake_table(title: str, /, *rows: collections.abc.Sequence[object], sep: str = ' | ',\nheader: collections.abc.Sequence[object] | None = None) -> str\n  __defaults__ = None\n  __kwdefaults__ = {'sep': ' | ', 'header': None}\nprice(amount: float, /, *, currency: str = 'KZT', discount: float = 0.0, tax: float =\n0.12) -> str\n  __defaults__ = None\n  __kwdefaults__ = {'currency': 'KZT', 'discount': 0.0, 'tax': 0.12}\nmerge_settings(defaults: collections.abc.Mapping[str, object], /, **overrides: object) ->\ndict[str, object]\n  __defaults__ = None\n  __kwdefaults__ = None\nstats(1.25, 2.5, 3.75, 8.0) = {'min': 1.25, 'max': 8.0, 'mean': 3.88, 'median': 3.12}\nstats(*values, precision=1) = {'min': 1.2, 'max': 8.0, 'mean': 3.9, 'median': 3.1}\nstats(5) = {'min': 5.0, 'max': 5.0, 'mean': 5.0, 'median': 5.0}\nmake_table('Оценки', *rows, header=header):\nОценки\nИмя | Балл\nАлия | 95\nАскар | 87\nmake_table('Числа', (1, 2), sep=',') = 'Числа\\n1,2'\nprice(1000) = 1120.00 KZT\nprice(1000, discount=0.1) = 1008.00 KZT\nprice(1000, currency='USD', tax=0, discount=0.1) = 900.00 USD\nmerge_settings(defaults, theme='dark') = {'theme': 'dark', 'size': 12}\nИсходные настройки = {'theme': 'light', 'size': 12}\n\nНамеренно неверные вызовы:\nTypeError: stats(numbers=(1, 2)): *numbers не именованный параметр\nTypeError: stats(1, precision=2, **{'precision': 3}): повтор имени\nTypeError: make_table(title='X'): title только по позиции\nTypeError: make_table(): обязательный title отсутствует\nTypeError: price(amount=1000): amount только по позиции\nTypeError: price(1000, 'USD'): currency только по имени\nTypeError: price(1000, unknown=1): нет **kwargs\nTypeError: merge_settings(defaults={}): defaults не передан по позиции\nTypeError: merge_settings({}, {}): второй позиционный аргумент запрещён\nKeyError: 'Неизвестные настройки: unknown'\nПРОВЕРКИ: допустимые вызовы, ошибки, границы и неизменность пройдены.\n",
+  "stderr": ""
+}

@@ -1,0 +1,18 @@
+{
+  "id": "lecture_srs3",
+  "title": "СРС 3. Воспроизводимые измерения list и tuple из миллиона элементов.",
+  "command": [
+    "C:\\Users\\shvac\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "-m",
+    "lecture03",
+    "srs3"
+  ],
+  "display_command": "python -m lecture03 srs3",
+  "python": "3.12.14",
+  "timestamp": "2026-10-17T17:23:08+05:00",
+  "exit_code": 0,
+  "stdout": "Лекция 3 | srs3 | СРС 3. Воспроизводимые измерения list и tuple из миллиона элементов.\nPython: 3.12.14 CPython\nN = 1000000 ; серий = 7 ; операций в серии = 5\nВремя одной операции, миллисекунды:\nlist_create    медиана    24.398; минимум    23.767\ntuple_create   медиана    31.768; минимум    25.507\nlist_iterate   медиана     9.687; минимум     8.208\ntuple_iterate  медиана     8.932; минимум     7.853\nsys.getsizeof(list): 8000056 байт\nsys.getsizeof(tuple): 8000040 байт\nПамять элементов int не входит в sys.getsizeof контейнера.\nИтерация измерена на заранее созданных коллекциях, без print.\nСоздание: list(range(N)) и tuple(range(N)); условия одинаковы.\nВсе повторы сохранены в lecture03/outputs/benchmark.json.\nПРОВЕРКИ: УСПЕШНО\n",
+  "stderr": ""
+}

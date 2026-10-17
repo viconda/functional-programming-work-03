@@ -1,0 +1,18 @@
+{
+  "id": "lecture_extra_copy",
+  "title": "Дополнение к разделу 8. Поверхностное и глубокое копирование.",
+  "command": [
+    "C:\\Users\\shvac\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "-m",
+    "lecture03",
+    "extra_copy"
+  ],
+  "display_command": "python -m lecture03 extra_copy",
+  "python": "3.12.14",
+  "timestamp": "2026-10-17T17:23:03+05:00",
+  "exit_code": 0,
+  "stdout": "Лекция 3 | extra_copy | Дополнение к разделу 8. Поверхностное и глубокое копирование.\nВнешние словари различны: True\nВложенный список общий с shallow: True\nВложенный список общий с deep: False\nОригинал после изменения shallow: {'scores': [80, 90, 100], 'name': 'Алия'}\nГлубокая копия: {'scores': [80, 90], 'name': 'Алия'}\nЗамена внешнего поля shallow не меняет поле оригинала.\nПРОВЕРКИ: УСПЕШНО\n",
+  "stderr": ""
+}

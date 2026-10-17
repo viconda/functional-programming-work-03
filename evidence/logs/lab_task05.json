@@ -1,0 +1,17 @@
+{
+  "id": "lab_task05",
+  "title": "Лабораторная работа Задание 5",
+  "command": [
+    "C:\\Users\\shvac\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "-m",
+    "lab03.task05"
+  ],
+  "display_command": "python -m lab03.task05",
+  "python": "3.12.14",
+  "timestamp": "2026-10-17T17:24:34+05:00",
+  "exit_code": 0,
+  "stdout": "ЗАДАНИЕ 5. Создание 100 000 отдельных записей, три повтора\nPython 3.12.14, Windows\nВремя без tracemalloc; память отдельно; все поля неизменяемы.\nВид                   min, с   живые, MiB   пик, MiB    ключ\ndict                0.022558       18.311     18.312   False\n  Копия: 12000 -> 15000; исходная цена: 12000\ntuple               0.011740        8.393      8.393    True\n  Копия: 12000 -> 15000; исходная цена: 12000\nnamedtuple          0.036721        9.156      9.157    True\n  Копия: 12000 -> 15000; исходная цена: 12000\nNamedTuple          0.030928        9.156      9.157    True\n  Копия: 12000 -> 15000; исходная цена: 12000\nfrozen dataclass    0.084099       10.682     10.682    True\n  Копия: 12000 -> 15000; исходная цена: 12000\nПроверки разных объектов, копий и ключей: OK\nРезультаты сохранены в lab03/task05_metrics.json\n",
+  "stderr": ""
+}

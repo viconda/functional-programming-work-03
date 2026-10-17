@@ -1,0 +1,5 @@
+Лекция 3 | ex13 | Пример 13. Enum как набор именованных оценок.
+Grade.EXCELLENT B
+Границы: A B B C
+Переопределение Grade.GOOD: AttributeError
+ПРОВЕРКИ: УСПЕШНО

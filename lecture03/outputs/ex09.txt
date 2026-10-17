@@ -1,0 +1,6 @@
+Лекция 3 | ex09 | Пример 9. Именованный кортеж collections.namedtuple.
+3 4 3
+Point(x=3, y=4) Point(x=10, y=4)
+{'x': 3, 'y': 4}
+Присваивание p.x: AttributeError
+ПРОВЕРКИ: УСПЕШНО

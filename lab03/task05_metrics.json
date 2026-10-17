@@ -1,0 +1,87 @@
+{
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26100-SP0",
+  "rows": [
+    {
+      "representation": "dict",
+      "count": 100000,
+      "seconds": [
+        0.0225577000528574,
+        0.029340900015085936,
+        0.024995200103148818
+      ],
+      "best_seconds": 0.0225577000528574,
+      "current_bytes": 19200984,
+      "peak_bytes": 19201048,
+      "bytes_per_record_including_list": 192.00984,
+      "keyable": false,
+      "original_price": 12000,
+      "updated_price": 15000
+    },
+    {
+      "representation": "tuple",
+      "count": 100000,
+      "seconds": [
+        0.013589899986982346,
+        0.013874500058591366,
+        0.011739799985662103
+      ],
+      "best_seconds": 0.011739799985662103,
+      "current_bytes": 8800984,
+      "peak_bytes": 8801048,
+      "bytes_per_record_including_list": 88.00984,
+      "keyable": true,
+      "original_price": 12000,
+      "updated_price": 15000
+    },
+    {
+      "representation": "namedtuple",
+      "count": 100000,
+      "seconds": [
+        0.036720999982208014,
+        0.038327999878674746,
+        0.04238539980724454
+      ],
+      "best_seconds": 0.036720999982208014,
+      "current_bytes": 9601248,
+      "peak_bytes": 9601360,
+      "bytes_per_record_including_list": 96.01248,
+      "keyable": true,
+      "original_price": 12000,
+      "updated_price": 15000
+    },
+    {
+      "representation": "NamedTuple",
+      "count": 100000,
+      "seconds": [
+        0.030927799874916673,
+        0.037390700075775385,
+        0.040691399946808815
+      ],
+      "best_seconds": 0.030927799874916673,
+      "current_bytes": 9601248,
+      "peak_bytes": 9601360,
+      "bytes_per_record_including_list": 96.01248,
+      "keyable": true,
+      "original_price": 12000,
+      "updated_price": 15000
+    },
+    {
+      "representation": "frozen dataclass",
+      "count": 100000,
+      "seconds": [
+        0.08409860008396208,
+        0.0891171998810023,
+        0.09301209985278547
+      ],
+      "best_seconds": 0.08409860008396208,
+      "current_bytes": 11201184,
+      "peak_bytes": 11201296,
+      "bytes_per_record_including_list": 112.01184,
+      "keyable": true,
+      "original_price": 12000,
+      "updated_price": 15000
+    }
+  ],
+  "method": "3 repeats, number=1; min; shared immutable payload; live records retained; tracemalloc run separately"
+}
